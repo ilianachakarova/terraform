@@ -27,7 +27,7 @@ jobs:
       - name: Terraform Init
         run: terraform init 
       - name: Terraform Plan
-        run: terraform plan -out=terraform.plan
+        run: terraform plan -out=terraform-plan
       - name: Upload terraform plan
         uses: actions/upload-artifact@v3
         with:
