@@ -10,7 +10,7 @@ permissions:
 
 jobs:
   terraform-test:
-    name: 'Terraform Test'
+    name: 'Terraform Tests'
     runs-on: ubuntu-latest
 
     steps:
