@@ -53,6 +53,6 @@ jobs:
             uses: actions/download-artifact@v3
             with:
                 name: terraform-plan
-                path: .    
+                path: terraform.plan  
           - name: Setup Apply
             run: terraform apply -auto-approve terraform.plan           
